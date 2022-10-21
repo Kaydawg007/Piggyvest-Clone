@@ -1,0 +1,116 @@
+.Steps {
+  display: flex;
+  padding: 0 30px;
+}
+
+.shieldText {
+  width: 35%;
+  padding: 0 20px 0 30px;
+}
+
+.stepImage {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+.stepsDiv {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.arrCta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.arrCta:hover {
+  transform: translateX(10px);
+}
+
+.arrow {
+  width: 33px;
+  height: 33px;
+}
+
+.stepsDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.eachStep {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 15px auto;
+  transition: all 0.5s ease-in-out;
+}
+
+.eachStep:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 928px) {
+  .Steps {
+    flex-direction: column;
+  }
+
+  .shieldText {
+    width: 60%;
+  }
+
+  .eachStep {
+    margin: 10px auto;
+    width: 45%;
+  }
+
+  .stepsDiv {
+    width: 90%;
+    margin: 30px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .shieldText {
+    width: 75%;
+  }
+
+  .eachStep {
+    width: 80%;
+  }
+
+  .stepsDiv {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .eachStep {
+    width: 100%;
+  }
+
+  .shieldText {
+    width: 90%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .eachStep {
+    padding: 10px 0 0 0;
+  }
+
+  .Steps {
+    padding: 10px;
+  }
+}

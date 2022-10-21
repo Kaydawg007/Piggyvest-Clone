@@ -1,0 +1,42 @@
+.CusImg {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.span {
+  float: right;
+  font-size: 12px;
+}
+
+.cusDet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.text > h6 {
+  margin: 10px 0 0 0;
+}
+
+.text > p {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 500px) {
+  .CusImg {
+    width: 35px;
+    height: 35px;
+  }
+}

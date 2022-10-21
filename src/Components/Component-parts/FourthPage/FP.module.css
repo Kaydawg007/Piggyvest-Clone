@@ -1,0 +1,12 @@
+.FourthPage {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 950px) {
+  .FourthPage {
+    flex-direction: column;
+  }
+}

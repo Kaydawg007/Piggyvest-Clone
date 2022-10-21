@@ -1,0 +1,47 @@
+.rpt {
+  width: 40%;
+}
+
+.perc {
+  color: #7913e5;
+  padding: 15px;
+  background-color: #f7f0ff;
+  display: inline-block;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 40px;
+  font-family: U8-Bold, sans-serif;
+}
+
+.cta > a {
+  color: #7913e5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 950px) {
+  .rpt {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .rpt {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  p {
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,46 @@
+.HyperLinks {
+  display: flex;
+  width: 40%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.HyperLinks > ul {
+  padding: 0 20px;
+  margin-top: 0;
+}
+
+.HyperLinks > ul > p {
+  color: #0c1823;
+  font-weight: 700;
+  font-family: U8-Bold, sans-serif;
+  font-size: 14px;
+}
+
+.HyperLinks > ul > li {
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 12px;
+  color: #353535;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.HyperLinks > ul > li:hover {
+  color: #0d60d8;
+}
+
+@media screen and (max-width: 950px) {
+  .HyperLinks {
+    width: 100%;
+    margin: 15px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .HyperLinks {
+    flex-direction: column;
+  }
+}

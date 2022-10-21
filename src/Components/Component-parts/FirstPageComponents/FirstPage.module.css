@@ -1,0 +1,12 @@
+.FirstPage {
+  display: flex;
+  margin-top: 150px;
+  width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+  .FirstPage {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+}

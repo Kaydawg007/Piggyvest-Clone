@@ -1,0 +1,9 @@
+.SOTMI {
+  width: 50%;
+}
+
+@media screen and (max-width: 950px) {
+  .SOTMI {
+    width: 100%;
+  }
+}

@@ -1,0 +1,68 @@
+.security {
+  display: flex;
+  align-items: center;
+  margin: 160px 0 110px 0;
+}
+
+.shield {
+  width: 30%;
+}
+
+.shield > img {
+  width: 100px;
+  height: 110px;
+  float: right;
+  margin-top: 100px;
+  margin-right: 30px;
+}
+
+.shieldText {
+  width: 70%;
+}
+
+.shieldText > p {
+  width: 80%;
+}
+
+.shieldText > h4 {
+  font-size: 33px;
+  color: #0c1825;
+  font-weight: 700;
+  font-family: U8-Bold, sans-serif;
+  text-transform: capitalize;
+}
+
+.shieldText a {
+  color: #0d60d8;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: DM Sans, sans-serif !important;
+}
+
+@media screen and (max-width: 928px) {
+  .security {
+    margin: 0px auto 60px auto;
+    flex-direction: column;
+  }
+
+  .shield {
+    width: auto;
+    margin: auto;
+  }
+
+  .shieldText {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .shieldText > p {
+    width: 100%;
+  }
+
+  .shield > img {
+    float: none;
+    margin-right: 0;
+  }
+}

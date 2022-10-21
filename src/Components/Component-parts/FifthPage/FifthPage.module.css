@@ -1,0 +1,72 @@
+.FifthPage {
+  display: flex;
+}
+
+.Testimonial {
+  width: 50%;
+  height: 500px;
+  overflow-y: hidden;
+}
+
+.Testimonial > div {
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin: 20px;
+  border-radius: 12px;
+  animation-name: comSlide;
+  animation-duration: 30000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes comSlide {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-600px);
+  }
+}
+
+.TestimonialDetails {
+  width: 45%;
+}
+
+@media screen and (max-width: 950px) {
+  .FifthPage {
+    flex-direction: column-reverse;
+  }
+
+  .Testimonial {
+    width: 75%;
+    margin: 40px auto;
+  }
+
+  .TestimonialDetails {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Testimonial {
+    width: 85%;
+  }
+
+  .TestimonialDetails {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .Testimonial {
+    width: 95%;
+  }
+
+  .TestimonialDetails {
+    width: 95%;
+  }
+}

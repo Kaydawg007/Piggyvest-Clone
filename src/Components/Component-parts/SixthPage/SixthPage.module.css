@@ -1,0 +1,42 @@
+.SixthPage {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f9f9f9;
+  padding: 35px 16px;
+  margin-top: 70px;
+}
+
+.SixthPage > h2 {
+  color: #0c1825;
+  font-size: 33px;
+  font-weight: 700;
+  font-family: U8-Bold, sans-serif;
+}
+
+.pcLogo > img {
+  width: 137px;
+  height: 37px;
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 950px) {
+  .SixthPage {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .pcLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pcLogo > img {
+    width: 180px;
+    height: 40px;
+    margin: 10px auto;
+  }
+}

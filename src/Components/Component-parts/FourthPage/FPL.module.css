@@ -1,0 +1,46 @@
+.FPL {
+  width: 50%;
+  background-color: #0d60d8;
+  padding: 25px 40px;
+  box-sizing: border-box;
+  font-family: "DM-sans", sans-serif;
+}
+
+.FPL > h1 {
+  font-family: U8-Bold, sans-serif;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 0.9;
+  line-height: 55px;
+}
+
+.FPL > p {
+  color: white;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.FPL > p > a {
+  color: white;
+  text-decoration: none;
+}
+
+.FPL > p:last-of-type {
+  cursor: pointer;
+}
+
+.FPL > p:last-of-type:hover {
+  transform: translateX(20px);
+}
+
+@media screen and (max-width: 950px) {
+  .FPL {
+    width: 100%;
+    text-align: center;
+  }
+
+  .FPL > p {
+    justify-content: center;
+  }
+}

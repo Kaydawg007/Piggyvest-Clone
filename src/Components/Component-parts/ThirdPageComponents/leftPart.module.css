@@ -1,0 +1,23 @@
+.leftPart {
+  width: 60%;
+}
+
+@media screen and (max-width: 950px) {
+  .leftpart {
+    margin: auto;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .leftpart {
+    margin: auto;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .leftPart > img {
+    width: 100%;
+  }
+}

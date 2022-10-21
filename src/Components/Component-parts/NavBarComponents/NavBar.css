@@ -1,0 +1,33 @@
+@keyframes slideIn {
+  0% {
+    transform: translateY(-200vh);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-200vh);
+  }
+}
+
+.slideIn {
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-name: slideIn;
+}
+
+.slideOut {
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-name: slideOut;
+}
